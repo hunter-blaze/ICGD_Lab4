@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   studentNumber: 13780770
-  bandReached: 2
+  bandReached: 5
 --- !u!1 &528214487
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +178,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 528214490}
-  - component: {fileID: 528214489}
   - component: {fileID: 528214488}
   m_Layer: 0
   m_Name: LoadManager
@@ -200,19 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   redObj: {fileID: 3859530042694440398, guid: b1ee13b85f2f0470abb159e0ac289299, type: 3}
---- !u!114 &528214489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528214487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84327c7edc1a344e8a78a7d950552712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  redObj: {fileID: 0}
+  blueObj: {fileID: 8654450966072241089, guid: 058ba5f6f309641178c70eedd6c9be63, type: 3}
 --- !u!4 &528214490
 Transform:
   m_ObjectHideFlags: 0
